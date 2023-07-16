@@ -1,16 +1,9 @@
-# This is a sample Python script.
+from conta import Conta
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+conta1 = Conta(456, "Rodrigo", 100, 10000)
+conta2 = Conta(123, "Rodrigo", 100, 10000)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+print(conta1 == conta2)
+print(conta1.numero, conta2.limite)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
